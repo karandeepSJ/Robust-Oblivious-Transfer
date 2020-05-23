@@ -4,7 +4,7 @@
 - Using a public-key cryptosystem, say El Gamal, design a Robust Oblivious Transfer protocol between a client A (who has the index i) and server B (who has the array) such that A and B are part of a large network and reliably communicate via the above robust routing mechanism.
 
 # Protocol
-The detailed explaination of the two protocols is given in [Robust Oblivious Transfer](./Robust%20Oblivious%20Transfer.pdf)
+The detailed explanation of the two protocols is given in [Robust Oblivious Transfer](./Robust%20Oblivious%20Transfer.pdf)
 
 # Implementation
 The code does not establish any actual connection or simulate a network. Messages to be transmitted are just stored in variables, and method to manually corrupt messages is written.    
